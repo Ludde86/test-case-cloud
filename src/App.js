@@ -1,15 +1,20 @@
 import React from 'react';
 import './App.css';
-import Side from './components/Side';
-import Main from './components/Main';
-import Nav from './components/Nav';
+import SideBar from './ui/SideBar';
+import MainContainer from './ui/MainContainer';
+import NavBar from './ui/NavBar';
 
 function App() {
 	return (
 		<div className="App">
-			<Side />
-			<Main />
-			<Nav />
+			<div className="app-container">
+				<SideBar />
+
+				<div className="nav-main-container">
+					<NavBar />
+					<MainContainer />
+				</div>
+			</div>
 		</div>
 	);
 }

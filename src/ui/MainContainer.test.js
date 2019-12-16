@@ -1,12 +1,12 @@
 import React from 'react';
 import { render } from '@testing-library/react';
 import '@testing-library/jest-dom/extend-expect';
-import Main from './Main';
+import MainContainer from './MainContainer';
 
-describe('Main', () => {
+describe('MainContainer', () => {
 	describe('Layout', () => {
 		it('has header', () => {
-			const { container } = render(<Main />);
+			const { container } = render(<MainContainer />);
 			const header = container.querySelector('h1');
 			expect(header).toHaveTextContent("Let's get started");
 		});

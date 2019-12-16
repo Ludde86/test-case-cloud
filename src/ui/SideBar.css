@@ -1,0 +1,48 @@
+.sidebar-container {
+	background: #5c6375;
+	color: white;
+	width: 20%;
+}
+
+.links-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 90vh;
+}
+
+.links-container li {
+	font-size: 14px;
+}
+
+.links-container ul {
+	padding: 0;
+	margin: 0;
+	margin-left: 20px;
+}
+
+.sidebar-links {
+	font-size: 16px;
+}
+
+.sidebar-links ul {
+	height: 20vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+.sidebar-links li {
+}
+
+.support-links {
+	font-size: 16px;
+}
+
+.support-links ul {
+	height: 15vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	list-style: none;
+}

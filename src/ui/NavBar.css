@@ -1,0 +1,21 @@
+.navbar-container {
+	background: #ffffff;
+	color: black;
+	border-bottom: solid gainsboro 1px;
+	height: 7.5vh;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.user-icon {
+	background: #cf9de8;
+	color: #ffffff;
+	border-radius: 50%;
+	padding: 7px;
+	font-size: 16px;
+}
+
+.user-dropdown-meny {
+	padding: 10px;
+}
