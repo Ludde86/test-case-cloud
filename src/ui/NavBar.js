@@ -1,15 +1,11 @@
 import React from 'react';
 import './NavBar.css';
+import User from '../components/User';
 
 export const NavBar = () => {
 	return (
 		<div className="navbar-container">
-			<div className="user-icon">
-				<span>US</span>
-			</div>
-			<div className="user-dropdown-meny">
-				<span>User</span>
-			</div>
+			<User />
 		</div>
 	);
 };
