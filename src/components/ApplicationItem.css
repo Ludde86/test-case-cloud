@@ -1,1 +1,14 @@
+.application-item {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 35vh;
+}
 
+.applacation-item-text {
+	font-weight: 600;
+}
+
+.application-item button {
+}

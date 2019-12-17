@@ -9,7 +9,6 @@ function App() {
 		<div className="App">
 			<div className="app-container">
 				<SideBar />
-
 				<div className="nav-main-container">
 					<NavBar />
 					<MainContainer />

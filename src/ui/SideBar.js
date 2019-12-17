@@ -2,6 +2,7 @@ import React from 'react';
 import './SideBar.css';
 
 export const SideBar = () => {
+	/*myRef={myRef}*/
 	return (
 		<div className="sidebar-container">
 			<div className="sidebar-header">
@@ -10,30 +11,33 @@ export const SideBar = () => {
 			<div className="links-container">
 				<div className="sidebar-links">
 					<ul>
+						<div className="application-count">
+							<li>
+								<a href="#/">APPLICATIONS</a>
+							</li>
+						</div>
+
 						<li>
-							<a>APPLICATIONS</a>
+							<a href="#/">DATA SOURCES</a>
 						</li>
 						<li>
-							<a>DATA SOURCES</a>
+							<a href="#/">USER MANAGEMENT</a>
 						</li>
 						<li>
-							<a>USER MANAGEMENT</a>
-						</li>
-						<li>
-							<a>SETTINGS</a>
+							<a href="#/">SETTINGS</a>
 						</li>
 					</ul>
 				</div>
 				<div className="support-links">
 					<ul>
 						<li>
-							<a>SUPPORT</a>
+							<a href="#/">SUPPORT</a>
 						</li>
 						<li>
-							<a>Knowledge base</a>
+							<a href="#/">Knowledge base</a>
 						</li>
 						<li>
-							<a>Contact us</a>
+							<a href="#/">Contact us</a>
 						</li>
 					</ul>
 				</div>
