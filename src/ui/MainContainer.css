@@ -1,7 +1,11 @@
 .main-container {
-	background: #e1e9e8;
+	background: #e9f1f0;
 	color: #000;
 	min-height: 92.5vh;
 	text-align: center;
 	padding: 10px;
+}
+
+.main-content {
+	border: solid black 1px;
 }

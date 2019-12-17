@@ -1,1 +1,9 @@
-
+.application-container {
+	width: 30vh;
+	height: 40vh;
+	border: solid gainsboro 1px;
+	background: #ffffff;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
